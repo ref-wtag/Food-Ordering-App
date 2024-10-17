@@ -22,6 +22,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Well Food"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -33,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textSize="16sp"
         android:text="Deliver Your Favourite Foods"
         android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
@@ -43,8 +45,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Login to Your Acoount"
+        android:layout_marginTop="14dp"
+        android:text="Login to Your Account"
         android:textColor="@color/textColor"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
@@ -94,7 +96,6 @@
         android:layout_marginTop="16dp"
         android:text="Or"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberPassword"
-        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
 
@@ -109,24 +110,25 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
         android:background="@drawable/whitebutton"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/google"
         android:paddingLeft="15dp"
         android:text="Google"
         android:textAllCaps="false"
         app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
         android:background="@drawable/whitebutton"
         android:drawableLeft="@drawable/facebook"
+        android:layout_marginTop="10dp"
         android:paddingLeft="15dp"
         android:text="Facebook"
         android:textAllCaps="false"
@@ -157,9 +159,9 @@
         android:layout_marginTop="16dp"
         android:text="Don't Have Account"
         android:textColor="@color/textColor"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
@@ -175,5 +177,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/dontHaveButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

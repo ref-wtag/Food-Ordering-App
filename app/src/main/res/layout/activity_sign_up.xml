@@ -44,7 +44,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:text="Sign Up Here"
         android:textColor="@color/textColor"
         android:textSize="20sp"
@@ -55,7 +55,7 @@
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="325dp"
-        android:layout_height="57dp"
+        android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/user_01"
@@ -73,7 +73,7 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="325dp"
-        android:layout_height="57dp"
+        android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/mail"
@@ -90,7 +90,7 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="325dp"
-        android:layout_height="57dp"
+        android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/lock_01"
@@ -108,9 +108,9 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Or"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
@@ -128,9 +128,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/whitebutton"
         android:drawableLeft="@drawable/google"
         android:drawablePadding="15dp"
@@ -143,9 +143,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button5"
-        android:layout_width="152dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/whitebutton"
         android:drawableLeft="@drawable/facebook"
         android:drawablePadding="15dp"
@@ -175,11 +175,12 @@
         android:id="@+id/alreadyHaveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:gravity="center"
         android:text="Already Have An Account"
         android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
