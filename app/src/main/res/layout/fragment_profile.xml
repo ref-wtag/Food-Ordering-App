@@ -11,8 +11,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,11 +23,12 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/profileedittextshape"
             android:elevation="2dp"
+            android:padding="5dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="30dp"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
@@ -54,11 +56,12 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/profileedittextshape"
             android:elevation="2dp"
+            android:padding="5dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="45dp"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
@@ -75,7 +78,7 @@
                 android:background="@android:color/transparent"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Banani, Kamal Attaturk Avenue" />
+                android:text="Banani, Kamal Attaturk Avenue with some dummy data" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,11 +89,12 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/profileedittextshape"
             android:elevation="2dp"
+            android:padding="5dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="30dp"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
@@ -117,13 +121,14 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:padding="5dp"
             android:background="@drawable/profileedittextshape"
             android:elevation="2dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="30dp"
+                android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
@@ -144,19 +149,19 @@
         </LinearLayout>
     </LinearLayout>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button7"
-            android:elevation="5dp"
-            android:layout_marginBottom="32dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginLeft="8dp"
-            android:textAllCaps="false"
-            android:background="@drawable/profileedittextshape"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_gravity="bottom"
-            android:textColor="@color/textColor"
-            android:textSize="20sp"
-            android:text="Save Information" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/profileedittextshape"
+        android:elevation="5dp"
+        android:text="Save Information"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
 
 </FrameLayout>

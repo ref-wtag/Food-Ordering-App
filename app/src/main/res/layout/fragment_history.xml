@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Fragment.HistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -102,13 +103,14 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/buyAgainRecyclerView"
-            android:layout_width="358dp"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:listitem="@layout/buy_again_item"
-            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            tools:listitem="@layout/buy_again_item" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
