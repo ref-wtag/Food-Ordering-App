@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodorderingapp.activity.LoginActivity;
 import com.example.foodorderingapp.activity.MainActivity;
-import com.example.foodorderingapp.admin.AdminHomeActivity;
+import com.example.foodorderingapp.adminActivity.AdminHomeActivity;
 
 public class ChoosePanelActivity extends AppCompatActivity {
 
