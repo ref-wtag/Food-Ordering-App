@@ -9,9 +9,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodorderingapp.databinding.ActivityLoginBinding;
 import com.example.foodorderingapp.model.User;
+import com.example.foodorderingapp.realm.Migration;
+
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
-import io.realm.examples.realmmigrationexample.model.Migration;
 
 public class LoginActivity extends AppCompatActivity {
     private Realm realm;
@@ -26,8 +27,8 @@ public class LoginActivity extends AppCompatActivity {
         Realm.init(this);
         RealmConfiguration config1 = new RealmConfiguration.Builder()
                 .name("default1.realm")
-                .schemaVersion(3) // Set the schema version
-                .migration(new Migration()) // Set the migration class
+                .schemaVersion(3)
+                .migration(new Migration())
                 .build();
 
         Realm.setDefaultConfiguration(config1);

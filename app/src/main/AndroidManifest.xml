@@ -17,7 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,9 +42,6 @@
             android:exported="false" />
         <activity
             android:name=".ChooseLocationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".test"
             android:exported="false" />
     </application>
 
