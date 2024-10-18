@@ -47,8 +47,4 @@ class CartFragment : Fragment() {
 
         return binding.root
     }
-
-    companion object {
-
-    }
 }

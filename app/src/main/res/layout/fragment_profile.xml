@@ -37,6 +37,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/nameEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -70,6 +71,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/addressEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -103,6 +105,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/emailEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -137,6 +140,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/phoneEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -150,16 +154,16 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button7"
+        android:id="@+id/logOut"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="59dp"
         android:layout_gravity="bottom"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/profileedittextshape"
         android:elevation="5dp"
-        android:text="Save Information"
+        android:text="Log Out"
         android:textAllCaps="false"
         android:textColor="@color/textColor"
         android:textSize="16sp" />
