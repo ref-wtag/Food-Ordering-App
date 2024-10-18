@@ -13,10 +13,16 @@
         android:theme="@style/Theme.FoodOrderingApp"
         tools:targetApi="31">
         <activity
-            android:name=".StartActivity"
+            android:name=".admin.AdminApproveOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,24 +31,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".activity.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".PayoutActivity"
+            android:name=".activity.PayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailsActivity"
+            android:name=".activity.DetailsActivity"
             android:exported="false" />
+
         <activity
-            android:name=".ChooseLocationActivity"
+            android:name= ".ChoosePanelActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

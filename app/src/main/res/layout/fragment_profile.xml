@@ -46,7 +46,7 @@
                 android:background="@android:color/transparent"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Admin" />
+                android:text="Sumaiya" />
         </LinearLayout>
 
         <LinearLayout
@@ -80,7 +80,7 @@
                 android:background="@android:color/transparent"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Banani, Kamal Attaturk Avenue with some dummy data" />
+                android:text="House no 63, Road no 5, Block G, Bashundhara" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,7 +114,7 @@
                 android:background="@android:color/transparent"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:text="admin@gmail.com" />
+                android:text="Sumaiya@gmail.com" />
         </LinearLayout>
 
         <LinearLayout
@@ -149,7 +149,7 @@
                 android:background="@android:color/transparent"
                 android:ems="10"
                 android:inputType="phone"
-                android:text="01784509643" />
+                android:text="01711111111" />
         </LinearLayout>
     </LinearLayout>
 

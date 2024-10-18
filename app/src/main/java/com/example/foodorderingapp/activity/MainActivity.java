@@ -1,10 +1,13 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.activity;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
+
+import com.example.foodorderingapp.R;
+import com.example.foodorderingapp.bottomSheetFragment.NotificationBottomFragment;
 import com.example.foodorderingapp.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

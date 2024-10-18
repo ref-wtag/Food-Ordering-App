@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.foodorderingapp.LoginActivity;
+import com.example.foodorderingapp.activity.LoginActivity;
 import com.example.foodorderingapp.databinding.FragmentProfileBinding;
 
 public class ProfileFragment extends Fragment {

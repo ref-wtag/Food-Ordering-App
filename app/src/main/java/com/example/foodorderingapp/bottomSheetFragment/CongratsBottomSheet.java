@@ -1,4 +1,4 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.bottomSheetFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.foodorderingapp.activity.MainActivity;
 import com.example.foodorderingapp.databinding.FragmentCongratsBottomSheetBinding;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 

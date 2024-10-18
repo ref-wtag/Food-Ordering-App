@@ -1,4 +1,4 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.bottomSheetFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
+import com.example.foodorderingapp.R;
 import com.example.foodorderingapp.adapter.MenuAdapter;
 import com.example.foodorderingapp.databinding.FragmentMenuBottomSheetBinding;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;

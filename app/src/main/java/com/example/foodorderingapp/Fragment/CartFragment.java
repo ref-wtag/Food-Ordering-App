@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import com.example.foodorderingapp.PayoutActivity;
+import com.example.foodorderingapp.activity.PayoutActivity;
 import com.example.foodorderingapp.R;
 import com.example.foodorderingapp.adapter.CartAdapter;
 import com.example.foodorderingapp.databinding.FragmentCartBinding;

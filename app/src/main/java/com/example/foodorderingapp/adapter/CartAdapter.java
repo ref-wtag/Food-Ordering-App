@@ -20,7 +20,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         this.cartImages = cartImages;
         this.itemQuantities = new int[cartImages.size()];
         for (int i = 0; i < itemQuantities.length; i++) {
-            itemQuantities[i] = 1; // Initialize quantities to 1
+            itemQuantities[i] = 1;
         }
     }
 

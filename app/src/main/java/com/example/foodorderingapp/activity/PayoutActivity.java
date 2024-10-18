@@ -1,7 +1,9 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.foodorderingapp.bottomSheetFragment.CongratsBottomSheet;
 import com.example.foodorderingapp.databinding.ActivityPayoutBinding;
 
 public class PayoutActivity extends AppCompatActivity {

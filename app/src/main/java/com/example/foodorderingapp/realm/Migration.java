@@ -12,19 +12,9 @@ package com.example.foodorderingapp.realm;
 
      @Override
      public void migrate(final DynamicRealm realm, long oldVersion, long newVersion) {
-         // During a migration, a DynamicRealm is exposed. A DynamicRealm is an untyped variant of a normal Realm, but
-         // with the same object creation and query capabilities.
-         // A DynamicRealm uses Strings instead of Class references because the Classes might not even exist or have been
-         // renamed.
-
-         // Access the Realm schema in order to create, modify or delete classes and their fields.
          RealmSchema schema = realm.getSchema();
-
-         // Migrate from version 0 to version 1
          if (oldVersion == 0) {
              RealmObjectSchema personSchema = schema.get("Person");
-
-             // Combine 'firstName' and 'lastName' in a new field called 'fullName'
              personSchema
                      .addField("fullName", String.class, FieldAttribute.REQUIRED)
                      .transform(new RealmObjectSchema.Function() {
@@ -37,15 +27,12 @@ package com.example.foodorderingapp.realm;
                      .removeField("lastName");
              oldVersion++;
          }
-         // Migrate from version 1 to version 2
          if (oldVersion == 1) {
 
-             // Create a new class
              RealmObjectSchema petSchema = schema.create("Pet")
                      .addField("name", String.class, FieldAttribute.REQUIRED)
                      .addField("type", String.class, FieldAttribute.REQUIRED);
 
-             // Add a new field to an old class and populate it with initial data
              schema.get("Person")
                      .addRealmListField("pets", petSchema)
                      .transform(new RealmObjectSchema.Function() {
@@ -62,13 +49,10 @@ package com.example.foodorderingapp.realm;
              oldVersion++;
          }
 
-
-         // Migrate from version 2 to version 3
          if (oldVersion == 2) {
              RealmObjectSchema personSchema = schema.get("Person");
              personSchema.setNullable("fullName", true); // fullName is nullable now.
 
-             // Change type from String to int
              schema.get("Pet")
                      .addField("type_tmp", int.class)
                      .transform(new RealmObjectSchema.Function() {

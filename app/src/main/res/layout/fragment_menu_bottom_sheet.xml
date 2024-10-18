@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_height="wrap_content"
     android:background="@color/white"
-    tools:context=".MenuBottomSheetFragment">
+    tools:context=".bottomSheetFragment.MenuBottomSheetFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageButton

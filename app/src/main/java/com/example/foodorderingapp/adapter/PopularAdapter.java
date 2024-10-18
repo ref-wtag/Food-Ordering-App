@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.foodorderingapp.DetailsActivity;
+import com.example.foodorderingapp.activity.DetailsActivity;
 import com.example.foodorderingapp.databinding.PopularItemBinding;
 
 import java.util.List;

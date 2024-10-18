@@ -1,10 +1,12 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.foodorderingapp.R;
 
 public class SplashScreen extends AppCompatActivity {
     @Override

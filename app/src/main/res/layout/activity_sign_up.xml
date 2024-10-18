@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:elevation="5dp"
     android:background="@color/white"
-    tools:context=".SignUpActivity">
+    tools:context=".activity.SignUpActivity">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Well Food"
+        android:text="Food Ordering App"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"

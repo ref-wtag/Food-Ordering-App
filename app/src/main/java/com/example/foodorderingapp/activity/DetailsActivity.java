@@ -1,4 +1,4 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

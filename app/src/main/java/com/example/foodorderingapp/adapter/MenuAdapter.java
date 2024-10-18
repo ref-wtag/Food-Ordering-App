@@ -3,11 +3,10 @@ package com.example.foodorderingapp.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.foodorderingapp.DetailsActivity;
+import com.example.foodorderingapp.activity.DetailsActivity;
 import com.example.foodorderingapp.databinding.MenuItemBinding;
 
 import java.util.List;

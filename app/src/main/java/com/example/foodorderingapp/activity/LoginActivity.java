@@ -1,4 +1,4 @@
-package com.example.foodorderingapp;
+package com.example.foodorderingapp.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodorderingapp.databinding.ActivityLoginBinding;
 import com.example.foodorderingapp.model.User;
 import com.example.foodorderingapp.realm.Migration;
-
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
