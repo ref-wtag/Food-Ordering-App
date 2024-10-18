@@ -5,6 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import com.example.foodorderingapp.R;
@@ -12,23 +15,24 @@ import com.example.foodorderingapp.adapter.MenuAdapter;
 import com.example.foodorderingapp.databinding.FragmentSearchBinding;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SearchFragment extends Fragment {
     private FragmentSearchBinding binding;
     private MenuAdapter adapter;
 
-    private final List<String> originalFoodMenuName = List.of(
+    private final List<String> originalFoodMenuName = Arrays.asList(
             "Burger", "Sandwitch", "momo", "Burger", "Item",
             "Burger", "Sandwitch", "momo", "Burger", "Item"
     );
 
-    private final List<String> originalFoodPrice = List.of(
+    private final List<String> originalFoodPrice = Arrays.asList(
             "$5", "$10", "$8", "$9", "$8",
             "$5", "$10", "$8", "$9", "$8"
     );
 
-    private final List<Integer> originalItemImage = List.of(
+    private final List<Integer> originalItemImage = Arrays.asList(
             R.drawable.menubreakfast,
             R.drawable.menusalad,
             R.drawable.menufruits,
