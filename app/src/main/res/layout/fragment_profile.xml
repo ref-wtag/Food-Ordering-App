@@ -77,8 +77,11 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:ems="10"
+                android:maxLines="3"
                 android:inputType="textMultiLine"
-                android:text="Banani, Kamal Attaturk Avenue with some dummy data" />
+                android:clickable="true"
+                android:focusableInTouchMode="false"
+                android:text="Banani, Kamal Attaturk Avenue with some"/>
         </LinearLayout>
 
         <LinearLayout

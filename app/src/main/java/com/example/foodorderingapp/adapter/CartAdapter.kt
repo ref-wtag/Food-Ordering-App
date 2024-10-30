@@ -48,14 +48,6 @@ class CartAdapter(
                 plusButton.setOnClickListener {
   increaseQuantity(position)
                 }
-
-                deleteButton.setOnClickListener {
-val itemPosition = adapterPosition
-                    if (itemPosition!= RecyclerView.NO_POSITION) {
-                        deleteItem(itemPosition)
-                    }
-                }
-
             }
         }
 
@@ -63,6 +55,13 @@ val itemPosition = adapterPosition
             if (itemQuantities[position] >1) {
                 itemQuantities[position]--
                 binding.quantity.text = itemQuantities[position].toString()
+            }
+
+            if(itemQuantities[position] <= 1) {
+                val itemPosition = adapterPosition
+                if (itemPosition!= RecyclerView.NO_POSITION) {
+                    deleteItem(itemPosition)
+                }
             }
         }
 

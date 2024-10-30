@@ -36,6 +36,18 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/buAgainFoodId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Food id"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/buAgainFoodName"
+                app:layout_constraintStart_toEndOf="@+id/buAgainFoodImage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
                 android:id="@+id/buAgainFoodName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +57,7 @@
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/buAgainFoodPrice"
                 app:layout_constraintStart_toEndOf="@+id/buAgainFoodImage"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/buAgainFoodId" />
 
             <TextView
                 android:id="@+id/buAgainFoodPrice"
